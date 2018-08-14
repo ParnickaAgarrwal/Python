@@ -1,0 +1,18 @@
+1. Command to clone the repository to our system:
+ 					git clone <link of repository copied from github>
+
+2. Commands to add file:
+		       >> git add -A:
+				To add file to in the staged area.
+		       >> git commit -m "your message":
+ 						 To save our file from staged area onto git's local database.
+		      >> git push -u origin master:
+					     To push file onto github server.
+
+3. To check the status of our file:
+			       git status
+
+4. Commands to know the username and password of github:
+						   >> git config --global user.name "<username>"
+ 						   >>git config --global user.email "<email>"
+
