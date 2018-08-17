@@ -32,13 +32,14 @@ fees=5000
 print("Name: %s , Course: %s , Fees: %d" %(s,course,fees))
 
 
-'''Q.6- Let’s do some interesting exercise:
-name=”Tony Stark”
-salary=1000000
-print(‘%s’’%d’)%(____ ,____)'''
-name='Tony Stark'
-salary=1000000
-print('%s"%d'%(name,salary))
+'''Q.6- Find the area of circle 
+pi = 3.14 
+Take radius as input from user 
+Print the area of circle '''
+pi = 3.14
+r= int(input("Enter the radius of the circle"))
+Area= pi*r*r
+print(Area)
 
 
 
