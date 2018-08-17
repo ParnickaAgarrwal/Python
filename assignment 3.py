@@ -1,3 +1,4 @@
+#LIST
 #Q.1- Create a list with user defined inputs.
 list=[]
 n=int(input("Enter how much integers you want in the list\n"))
@@ -20,7 +21,7 @@ l=[1,2,3,4,5,6,7,8,9,1,1,1,2,]
 print(l.count(1))
 
 
-#Q.4- create a list with numbers and sort it in ascending order.
+#Q.4- Create a list with numbers and sort it in ascending order.
 l1=[1,0,56,25,79,589,24792,2548]
 l1.sort()
 print(l1)
@@ -42,25 +43,7 @@ A.sort()
 print("Sorted merged list is:",A)
 
 
-#Q.6-Implement a stack and queue using lists.
-stack=["abc","def","ghi","jkl"]
-print("Stack is: ",stack)
-stack.append("mno")
-print("Updated stack is: ",stack)
-stack.append("pqr")
-print("Updated stack is: ",stack)
-print("Popped value: ",stack.pop())
-print("Updated stack is: ",stack)
-queue=[0,1,2,3,4,5,6,7,8,9]
-print("Queue is: ",queue)
-queue.append(10)
-print("Updated queue is: ",queue)
-queue.pop(0)
-print("Updated queue is: ",queue)
-
-
-'''OPTIONAL QUESTION
-Q.1- Count even and odd numbers in that list.'''
+#Q.6-Count even and odd numbers in that list.'''
 num=[23,24,18,7,3,8]
 countodd=0
 counteven=0
@@ -72,3 +55,31 @@ for i in num:
 print("The list is: ",num)
 print("The odd count is: " , countodd)
 print("The even count is: ",counteven)
+
+
+#TUPLES
+#Q.1-Print a tuple in reverse order.
+tuple=(1,2,3)
+print("The tuple is:",tuple)
+print("The reversed tuple is:" ,tuple[::-1])
+
+
+#Q.2-Find largest and smallest elements of a tuples. 
+tuple1=(1,0,5,7896,659,-1879)
+print("The maximum element is:",max(tuple1))
+print("The minimum element is:",min(tuple1))
+
+#STRINGS
+#Q.1- Convert a string to uppercase.
+string="Hello Acadview"
+print(string.upper())
+
+
+#Q.2- Print true if the string contains all numeric characters.
+string1=str(input("Enter a string "))
+print(string1.isdigit())
+
+
+#Q.3- Replace the word "World" with your name in the string "Hello World".
+string2="Hello World"
+print(string2.replace('World','Parnicka Agarrwal'))
