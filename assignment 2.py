@@ -37,8 +37,8 @@ pi = 3.14
 Take radius as input from user 
 Print the area of circle '''
 pi = 3.14
-r= int(input("Enter the radius of the circle"))
-Area= pi*r*r
+r= float(input("Enter the radius of the circle "))
+Area= pi*r**2
 print(Area)
 
 
