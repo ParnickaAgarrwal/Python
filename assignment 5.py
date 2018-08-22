@@ -1,4 +1,4 @@
-#DECISION AND FLOW CONTROL
+'''#DECISION AND FLOW CONTROL
 #Q.1- Take an input year from user and decide whether it is a leap year or not.
 year=int(input("Enter the year: "))
 if(year%4==0):
@@ -117,7 +117,7 @@ for i in range(1,101):
     if(c==0):
             prime.append(i)
 print(prime)
-
+'''
 
 '''Q.6- Print the following patterns: 
 * 
