@@ -8,13 +8,6 @@ collection=data['student']
 '''Q.2- Take students name and marks(between 0-100) as input from user 10 times using loops.
 AND
 Q.3- Add these values in two columns named "Name" and "Marks" with the appropriate data type.'''
-'''for i in range(10):
-    name = input('Enter name: ')
-    marks = int(input('Enter marks: '))
-    collection.insert_one({'name':xyz,'marks':90})
-d =collection.find()
-for doc in d:
-    print(doc)'''
 i=0
 while(i<10):
     try:
